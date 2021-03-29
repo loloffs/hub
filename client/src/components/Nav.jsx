@@ -20,6 +20,8 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
   },
   appBar: {
+    height: '65px',
+    backgroundColor: "#3E434C",
     zIndex: theme.zIndex.drawer + 1,
   },
   drawer: {
@@ -38,7 +40,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function ClippedDrawer() {
+export default function Nav() {
   const classes = useStyles();
 
   return (
@@ -47,7 +49,7 @@ export default function ClippedDrawer() {
       <AppBar position="fixed" className={classes.appBar}>
         <Toolbar>
           <Typography variant="h6" noWrap>
-            Clipped drawer
+            hub
           </Typography>
         </Toolbar>
       </AppBar>
