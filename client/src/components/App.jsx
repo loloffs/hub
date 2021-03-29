@@ -11,7 +11,7 @@ const App = () => {
   return(
     
     <div>
-      <Nav />
+      <Nav/>
     </div>
 
 
