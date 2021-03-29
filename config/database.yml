@@ -47,7 +47,7 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: rails_project_test
+  database: hubDBtest
   pool: 5
   username:
   password:
